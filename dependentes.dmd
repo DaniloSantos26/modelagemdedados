@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dependentes" id="B81382FA-0D0E-4C0B-EE80-EBE8C58B70EF" version="3.5">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:22:48 UTC</createdTime>
+<ownerDesignName>dependentes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B81382FA-0D0E-4C0B-EE80-EBE8C58B70EF</designId>
+</OSDM_Design>

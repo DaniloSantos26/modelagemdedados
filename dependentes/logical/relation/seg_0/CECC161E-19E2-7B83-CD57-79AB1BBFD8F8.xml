@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empregado_possui_dependentes" directorySegmentName="seg_0" id="CECC161E-19E2-7B83-CD57-79AB1BBFD8F8">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:29:37 UTC</createdTime>
+<ownerDesignName>dependentes</ownerDesignName>
+<engineerTo>
+<item key="AD246809-6D6D-9176-84BE-EE221016A18D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D590898-2D26-53C4-2F47-1EB517DF2B9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D6E2F17E-85D9-2078-4236-50132B3F53E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
