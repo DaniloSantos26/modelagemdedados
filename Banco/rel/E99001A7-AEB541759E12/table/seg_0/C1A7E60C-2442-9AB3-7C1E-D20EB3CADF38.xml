@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1A7E60C-2442-9AB3-7C1E-D20EB3CADF38" name="Conta">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>3F78AECD-D413-0F60-FAC5-0A73DFEC672B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero" id="9C794BD8-8DEB-2271-8B16-814A3BE3AF29">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>71177773-93C7-70DB-1514-C5D82A1E9A8F</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="1CFB5485-6945-79D0-D56B-4436F6549559">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>10B35D05-81EF-CEF9-F38D-620770B67DCC</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="800C47A9-AC00-FFDD-FD11-1FCAD9DBB2CE">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>BEE8949D-47F1-3827-7C4E-26584F4E0787</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

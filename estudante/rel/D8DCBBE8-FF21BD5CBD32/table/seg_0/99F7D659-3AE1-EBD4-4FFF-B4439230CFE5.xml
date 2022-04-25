@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F7D659-3AE1-EBD4-4FFF-B4439230CFE5" name="Estudante">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:51:16 UTC</createdTime>
+<generatorID>383BFC57-9DB2-B1F0-00D2-A2FD7B06F942</generatorID>
+<ownerDesignName>estudante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="53864CA8-6CA1-B725-6FF5-DDCFB31AA039">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:51:16 UTC</createdTime>
+<generatorID>F492A52C-662A-63C8-3324-3A6CD0650F7D</generatorID>
+<ownerDesignName>estudante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="2F4DB3D5-60A5-59BD-B742-0618DDC63CB2">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:51:16 UTC</createdTime>
+<generatorID>95E9F732-A89C-79C2-C5B2-EFE1D408FF22</generatorID>
+<ownerDesignName>estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="26A84492-8247-0992-F866-0B9094F47C6E">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:51:16 UTC</createdTime>
+<generatorID>DEB0973E-D43D-296E-8F5D-A74CE88D370E</generatorID>
+<ownerDesignName>estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3806DF30-DD32-8849-4CF6-2C1DD14C9EFD" name="Estudante_PK">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:51:16 UTC</createdTime>
+<generatorID>E7EE6F47-F165-1F4A-FAE8-AB8AF206E6FD</generatorID>
+<ownerDesignName>estudante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53864CA8-6CA1-B725-6FF5-DDCFB31AA039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

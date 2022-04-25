@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C860A2BB-F8BE-1781-C7B5-E1D23467BFA0" name="agencia_bancaria">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>E1F541A1-7061-D946-050A-B2D8911509C8</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_agencia" id="A31D3214-8460-2B96-E5D8-56D95A3B839C">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>CA4F5703-470E-9C46-17D9-DFDF0CF528F7</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="8C66F2DF-588F-E5DB-DE8D-AFE1C47A184A">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>4044902A-0A83-1854-88E3-3DEDBC148F2C</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="4A3136B5-47B6-2BE1-50D1-DF6D8FF3FCEE">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>A5456512-D12A-E1D8-1BEA-2E20824CEAED</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

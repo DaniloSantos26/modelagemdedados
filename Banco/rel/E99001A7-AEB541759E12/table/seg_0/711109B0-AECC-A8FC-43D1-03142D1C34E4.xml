@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="711109B0-AECC-A8FC-43D1-03142D1C34E4" name="cliente">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>563AE0F1-3E2B-1602-A292-DF0E97809775</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="1C167E41-8A31-9F97-B6E1-7504B3F077CA">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>38061E93-CA0A-AA41-37A9-2A569E668512</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="EBAB6C56-CC5B-647F-3C21-B52EA36C3243">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>E2264D3B-A783-D152-B1E5-38F0CDCB3B1B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="DBE6D286-B3AC-60E0-CE8E-60D05C607A50">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>45392B93-40A3-74F8-990B-3F64FC842822</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="DF4B5AF4-5DA4-7853-D0B2-6D763AE7A6BB">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>0CC90B65-BD1B-3A03-0B3A-7F86B90F5CC2</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

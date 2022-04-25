@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0179C2B-5200-F462-856D-3A1E4C641DD1" name="tipo_de_aviao">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>1A523274-F0A0-F739-A438-C57DEE77E02C</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_tipo" id="C8856DB6-B955-F73C-E1F9-57E683A17714">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>1CCE7880-3BBB-E9EE-9C5B-2F602E91AB9E</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="D6BB6CE2-5F46-55B8-204B-C45D7027A5B9">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>ED13FF78-1F2C-A993-F23F-500193868B87</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="configuraçao" id="82B7696C-EEF7-AB91-70E6-115B169F608E">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>432195B9-7722-7F0A-68A5-1F8356AA1FDF</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT055</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

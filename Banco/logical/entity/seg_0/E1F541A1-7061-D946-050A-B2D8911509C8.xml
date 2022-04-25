@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1F541A1-7061-D946-050A-B2D8911509C8" name="agencia bancaria">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:56:05 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="E99001A7-FBEF-F36B-F936-AEB541759E12" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_agencia" id="CA4F5703-470E-9C46-17D9-DFDF0CF528F7">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:56:18 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="E99001A7-FBEF-F36B-F936-AEB541759E12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="4044902A-0A83-1854-88E3-3DEDBC148F2C">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:56:58 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="E99001A7-FBEF-F36B-F936-AEB541759E12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="A5456512-D12A-E1D8-1BEA-2E20824CEAED">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:57:29 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="E99001A7-FBEF-F36B-F936-AEB541759E12" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

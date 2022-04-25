@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32705ACC-A566-0A47-98AD-8605BAE13213" name="aeroporto">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:53 UTC</createdTime>
+<generatorID>07769226-F6C7-C9D0-6EA4-454A88E3AA6E</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_aereo" id="A848DFF2-93D7-C012-0178-8B750385311A">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>74B63099-8B22-DEDA-BE0F-C85CCF757067</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="DA262504-29A7-C564-75B1-488DD6695BCE">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>59C9DD60-378D-3C49-2D3F-B828A9283748</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="45C19C1B-7225-2AEC-D679-1A579D7F875C">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>E1B9E6F9-B8BC-F877-6F7E-50185019DF1E</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="3EA36ABC-94A7-B9AB-A5F3-9F8B86310971">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:18:54 UTC</createdTime>
+<generatorID>DFB31A8E-41A4-70DF-5752-6205390676CC</generatorID>
+<ownerDesignName>aeroporto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

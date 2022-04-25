@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="365FE68C-CAA6-5AD0-BCE8-A9718F49A905" mainViewID="048A78AA-618C-EF93-813A-FFCDD3345242">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 22:04:54 UTC</createdTime>
+<ownerDesignName>aeroporto</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

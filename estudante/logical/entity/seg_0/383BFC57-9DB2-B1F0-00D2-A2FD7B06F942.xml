@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="383BFC57-9DB2-B1F0-00D2-A2FD7B06F942" name="Estudante">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:44:07 UTC</createdTime>
+<ownerDesignName>estudante</ownerDesignName>
+<engineerTo>
+<item key="D8DCBBE8-FCFE-01EF-2303-FF21BD5CBD32" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="F492A52C-662A-63C8-3324-3A6CD0650F7D">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:44:48 UTC</createdTime>
+<ownerDesignName>estudante</ownerDesignName>
+<engineerTo>
+<item key="D8DCBBE8-FCFE-01EF-2303-FF21BD5CBD32" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="95E9F732-A89C-79C2-C5B2-EFE1D408FF22">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:48:17 UTC</createdTime>
+<ownerDesignName>estudante</ownerDesignName>
+<engineerTo>
+<item key="D8DCBBE8-FCFE-01EF-2303-FF21BD5CBD32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="DEB0973E-D43D-296E-8F5D-A74CE88D370E">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:50:23 UTC</createdTime>
+<ownerDesignName>estudante</ownerDesignName>
+<engineerTo>
+<item key="D8DCBBE8-FCFE-01EF-2303-FF21BD5CBD32" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7EE6F47-F165-1F4A-FAE8-AB8AF206E6FD" name="Estudante PK">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-19 23:47:03 UTC</createdTime>
+<ownerDesignName>estudante</ownerDesignName>
+<engineerTo>
+<item key="D8DCBBE8-FCFE-01EF-2303-FF21BD5CBD32" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F492A52C-662A-63C8-3324-3A6CD0650F7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E96732E6-5FBF-1BD2-C0E9-2A5F7A4460B3" name="Banco">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>A390A93E-8879-DF07-0985-24FCABF79592</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="F4998C49-93D1-03E4-DF82-3A37327732B4">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>F9B3FCCB-C8D6-96AB-047B-0B933C80EBD8</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="912C9CDC-C253-E26E-E1E1-39FCF06DEC89">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>0C3D2B2F-EC6B-9DD7-F568-9AF47B7595F3</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="54FAB1C8-564E-9711-E5AF-08CA113544CF">
+<createdBy>Acer</createdBy>
+<createdTime>2022-04-20 00:03:26 UTC</createdTime>
+<generatorID>07925E34-76AB-B092-535B-5E7AF3DF2A5C</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>
